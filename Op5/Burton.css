@@ -7,6 +7,7 @@ div#wrapper {
 nav {
     margin-top: 5px;
     padding: 10px;
+    margin-bottom: 5px;
 }
 
 nav a {
@@ -14,4 +15,19 @@ nav a {
     padding-right: 10px;
 }
 body {
+    font-family: "Arial", "sans-serif";
+}
+section.appel, section.fotos {
+    width: 50%;
+    float: left;
+}
+section.fotos {
+    text-align: right;
+}
+img.appel {
+    width: 512px;
+}
+img.fotos {
+    width: 473px;
+    margin-bottom: 9px;
 }
