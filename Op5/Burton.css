@@ -1,0 +1,17 @@
+div#wrapper {
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(251,235,235);
+    padding: 20px;
+}
+nav {
+    margin-top: 5px;
+    padding: 10px;
+}
+
+nav a {
+    color: blue;
+    padding-right: 10px;
+}
+body {
+}
