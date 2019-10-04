@@ -1,0 +1,53 @@
+div#wrapper, footer {
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(251,235,235);
+    padding: 20px;
+}
+nav {
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+nav a {
+    color: blue;
+    padding-right: 10px;
+}
+body {
+    font-family: "Arial", "sans-serif";
+}
+section.appel, section.fotos {
+    width: 50%;
+    float: left;
+}
+section.fotos {
+    text-align: right;
+}
+img.appel {
+    width: 512px;
+}
+img.fotos {
+    width: 473px;
+    margin-bottom: 9px;
+}
+img.article {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+article {
+    display: inline-block;
+    width: 32%;
+    padding-right: 15px;
+    vertical-align: top;
+}
+article:last-child {
+    padding-right: 0px;
+}
+footer {
+    background-color: lightgray;
+}
+footer a {
+    color: white;
+    padding: 5px;
+}
