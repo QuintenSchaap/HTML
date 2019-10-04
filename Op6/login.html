@@ -1,28 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Burton Education</title>
-    <link rel="stylesheet" type="text/css" href="Burton.css">
+    <link rel="stylesheet" type="text/css" href="Inlog.css">
 </head>
 <body>
 <form action="http://www.savatarian.com/html5/form.php" method="get">
-    <ul>
-        <li>
-            <h2>Burton Education</h2>
-        </li>
-        <li>
-        <label for="voornaam"> Voornaam:</label>
-        <input type="text" name="voornaam">
-    </li>
-        <li>
-            <label for="achternaam"> Achternaam:</label>
-            <input type="text" name="Achternaam">
-        </li>
-        <li>
-            <input type="submit" name="knop">
-        </li>
-    </ul>
+  <div class="form-group">
+      <ul>
+          <li>
+      <label for="voornaam">Voornaam</label>
+      <input type="text" naam="Voornaam">
+          </li>
+          <li>
+      <label for="tussenvoegsel">Tussenvoegsel</label>
+      <input type="text" naam="Tussenvoegsel">
+          </li>
+          <li>
+      <label for="achternaam">Achternaam</label>
+      <input type="text" naam="Achternaam">
+          </li>
+      <li>
+    <label class="genderlabel" for="gender">Geslacht: </label>
+    <input class="knop" type="radio" name="gender" value="male" >Man
+    <input class="knop" type="radio" name="gender" value="female" >Vrouw
+      </li>
+          <li>
+      <select>
+          <label for="kleurogen">Kleur ogen</label>
+          <option class="ogen" value="groen">Groen</option>
+          <option class="ogen" value="blauw">Blauw</option>
+          <option class="ogen" value="bruin">Bruin</option>
+      </select>
+          </li>
+      </ul>
+  </div>
+</form>
 </form>
 </body>
 </html>
