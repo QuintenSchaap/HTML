@@ -13,28 +13,24 @@
                 <section class="firstSection">
                     <ul class="firstSection">
                         <li>
-                            <!--Voornaam Input-->
                             <label for="voornaam">Voornaam: </label>
                             <input type="text" name="voornaam"/>
                         </li>
-                        <!--Tussenvoegsel input-->
                         <li>
                             <label for="tussenvoegsel">Tussenvoegsel: </label>
                             <input type="text" name="tussenvoegsel" />
                         </li>
-                        <!--Achternaam input-->
                         <li>
                             <label for="achternaam">Achternaam: </label>
                             <input type="text" name="achternaam" />
                         </li>
-                        <!--Geslacht Input-->
                         <li>
                             <label class="geslachtlocatie" for="geslacht"> Geslacht: </label>
                             <input class="knoplocatie" type="radio" name="geslacht" value="man"> Man
                             <input class="knoplocatie" type="radio" name="geslacht" value="vrouw"> Vrouw
                         </li>
                     <li>
-                        <label for="kleurogen">Kleur ogen: </label>
+                        <label class="kleurogen" for="kleurogen">Kleur ogen: </label>
                             <select name="kleurogen">
                                 <option value="groen">Groen</option>
                                 <option value="blauw">Blauw</option>
@@ -43,10 +39,10 @@
                         </li>
                         <li>
                             <label for="geboortedatum">Geboortedatum: </label>
-                            <input type="date" name="geboortedatum"/>
+                            <input class="geboortedatum" type="date" name="geboortedatum"/>
                         </li>
                         <li>
-                            <label class="locatielabel" for="omschrijving">Omschrijving: </label>
+                            <label class="locatietekstvak" for="omschrijving">Omschrijving: </label>
                             <textarea name="omschrijving" id="omschrijving" cols="30" rows="10"></textarea>
                         </li>
                     </ul>
