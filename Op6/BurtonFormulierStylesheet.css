@@ -44,14 +44,14 @@ form ul li input.knoplocatie {
     position: unset;
 }
 form ul li label.geslachtlocatie {
-    margin-right: 90px;
+    margin-right: 98px;
 }
-form ul li label.locatielabel {
+form ul li label.locatietekstvak {
     display: block;
 }
 form ul li textarea {
     display: inline-block;
-    margin-left: 180px;
+    margin-left: 191px;
     margin-top: -20px;
 }
 input.lekker-eten {
@@ -61,6 +61,12 @@ input.lekker-eten {
 .knoppen {
     margin-top:300px;
     float:right;
+}
+label.kleurogen {
+    margin-right: -6px;
+}
+input.geboortedatum {
+    margin-right: 15px;
 }
 
 
